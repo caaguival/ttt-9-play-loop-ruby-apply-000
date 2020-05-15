@@ -36,3 +36,8 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  until position_taken?(board, location) == board[""] && board[" "]
+  turn(board)
+end
+end
