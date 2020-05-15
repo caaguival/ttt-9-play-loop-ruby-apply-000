@@ -37,6 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  until position_tak
+  turn(board)
+  until 
 end
 end
