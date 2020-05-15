@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  until position_taken? != location[" "] || location[""] || nil
+  until position_taken?
   turn(board)
 end
 end
