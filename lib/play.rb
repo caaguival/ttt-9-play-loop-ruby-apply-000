@@ -42,4 +42,5 @@ def play(board)
   turn(board)
   counter += 1
 end
+puts "Thanks for Playing!"
 end
